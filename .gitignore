@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# Python caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test images: ignore any local images dropped in for manual testing,
+# except the committed representative samples below.
+tests/images/*.jpg
+tests/images/*.jpeg
+tests/images/*.png
+!tests/images/breakfast.jpg
+!tests/images/lunch.jpg
+!tests/images/salad.jpg
